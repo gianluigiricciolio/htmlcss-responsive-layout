@@ -1,0 +1,69 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* UTILITY */
+
+.gap-20{
+    gap:20px;
+}
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content:space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/* GENERAL */
+
+h2{
+    font-size: 2em;
+    color:rgb(35, 137, 246);
+}
+
+header{
+    background-color: rgb(35, 137, 246);
+}
+
+header .container{
+    height:100px;
+    
+}
+
+.container{
+    max-width:80vw;
+    margin:0 auto;
+}
+
+header ul{
+    display:none;
+    list-style: none;
+    gap:20px;
+}
+
+.jumbotron{
+    padding-top:40px;
+}
+
+/* LAYOUT */
+
+.row{
+    display:flex;
+}
+
+/* BACKGROUND */
+
+.bg-sky{
+    background-color: rgb(35, 137, 246);
+}
+
+.bg-lightblue{
+    background-color: lightblue;
+}
