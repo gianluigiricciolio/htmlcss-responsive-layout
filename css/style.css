@@ -52,6 +52,12 @@ header ul{
     padding-top:40px;
 }
 
+.jumbotron .content{
+    width: 100%;
+    padding:15px;
+    border-radius: 15px;
+}
+
 /* LAYOUT */
 
 .row{
